@@ -16,8 +16,8 @@ int main(void)
     int sum1 = 0;
     int sum2 = 0;
     int temp_value = 0;
-    //askin user to input credit card number
     
+    //askin user to input credit card number
     do
     {
         printf("Number:");
