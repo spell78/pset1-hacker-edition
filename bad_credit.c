@@ -45,5 +45,23 @@ int main(void)
         sum2 = sum2 + (cc_string[j] - 48);
     }
     sum = sum1 + sum2;
+    
+    /*if (sum % 10 == 0)
+    {
+        if (length == 13 || length == 16 && cc_string[0] == '4')
+        {
+            printf("Visa\n");
+        }
+        else if (length == 16 && cc_string[0] == '5' && cc_string[1] == '1' || cc_string[1] == '2' || cc_string[1] == '3' || cc_string[1] == '4' || cc_string[1] == '5')
+        {
+            printf("Master Card\n");
+        }
+    }
+    else
+    {
+        printf("Invalid credit card\n");
+    }
+    */
+    
     printf("%i\n", sum);       
 }
